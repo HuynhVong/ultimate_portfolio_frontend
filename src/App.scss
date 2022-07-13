@@ -4,11 +4,12 @@
 }
 
 .app__whitebg {
-  background-color: var(--white-color);
+  // background-color: var(--white-color);
+  background-color: #82D0D9;
 }
 
 .app__primarybg {
-  background-color: var(--primary-color);
+  background-color: #026E81;
 }
 
 .app__container {
@@ -59,7 +60,7 @@
   text-transform: capitalize;
 
   span {
-    color: var(--secondary-color);
+    color: #2E4159;
   }
 
   @media screen and (min-width: 2000px) {
@@ -74,7 +75,7 @@
 .p-text {
   font-size: 0.8rem;
   text-align: left;
-  color: var(--gray-color);
+  color: whitesmoke;
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {
@@ -126,8 +127,8 @@
     }
 
     &:hover {
-      background-color: var(--secondary-color);
-      border-color: var(--secondary-color);
+      background-color: #013A40;
+      border-color: #013A40;
 
       svg {
         color: var(--white-color);
@@ -160,13 +161,13 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #cbcbcb;
+    background-color: white;
     margin: 0.5rem;
 
     transition: background-color 0.2s ease-in-out;
 
     &:hover {
-      background-color: var(--secondary-color);
+      background-color: #013A40;
     }
 
     @media screen and (min-width: 2000px) {

@@ -29,7 +29,7 @@ const Header = () => (
                     <span>👋</span>
                     <div style={{ marginLeft: 20 }}>
                         <p className="p-text">Hello, I am</p>
-                        <h1 className="head-text">Minh Huynh Vong</h1>
+                        <h1 className="head-text" style={{ color: '#82D0D9' }}>Minh Huynh Vong</h1>
                     </div>
                 </div>
 
@@ -61,7 +61,7 @@ const Header = () => (
             whileInView={scaleVariants.whileInView}
             className="app__header-circles"
         >
-            {[images.flutter, images.redux, images.sass].map((circle, index) => (
+            {[images.redux, images.react, images.sass].map((circle, index) => (
                 <div className="circle-cmp app__flex" key={`circle-${index}`}>
                     <img src={circle} alt="profile_bg" />
                 </div>

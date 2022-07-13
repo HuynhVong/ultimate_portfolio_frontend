@@ -5,12 +5,12 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 1rem 2rem;
-  background: rgba(255, 255, 255, 0.25);
+  padding: 0rem 2rem;
+  background: rgba(3, 127, 140, 0.25);
   // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(3, 127, 140, 0.18);
   position: fixed;
   z-index: 2;
 }
@@ -55,9 +55,10 @@
     }
 
     a {
-      color: var(--gray-color);
+      color: white;
       text-decoration: none;
       flex-direction: column;
+      font-size: medium;
 
       text-transform: uppercase;
       font-weight: 500;
@@ -65,13 +66,13 @@
       transition: all 0.3s ease-in-out;
 
       &:hover {
-        color: var(--secondary-color);
+        color:#013A40;
       }
     }
 
     &:hover {
       div {
-        background: var(--secondary-color);
+        background: #013A40;
       }
     }
   }
@@ -90,7 +91,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--secondary-color);
+  background-color: #013A40;
 
 
   svg {
@@ -116,8 +117,8 @@
     align-items: flex-end;
     flex-direction: column;
     
-    background: url('../../assets/bgWhite.png');
-    background-color: var(--white-color);
+    // background: url('../../assets/bgWhite.png');
+    background-color: #037F8C;
     background-size: cover;
     background-repeat: repeat;
 
@@ -127,7 +128,7 @@
     svg {
       width: 35px;
       height: 35px;
-      color: var(--secondary-color);
+      color: white;
       margin: 0.5rem 1rem;
     }
 
@@ -147,7 +148,7 @@
         margin: 1rem;
 
         a {
-          color: var(--gray-color);
+          color: white;
           text-decoration: none;
           font-size: 1rem;
           text-transform: uppercase;

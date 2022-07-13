@@ -37,28 +37,29 @@ const Footer = () => {
 
     return (
         <>
-            <h2 className="head-text">Take a coffee & chat with me</h2>
+            <h2 className="head-text">Let's chat with me</h2>
 
             <div className="app__footer-cards">
                 <div className="app__footer-card ">
                     <img src={images.email} alt="email" />
-                    <a href="mailto:hello@micael.com" className="p-text">hello@micael.com</a>
+                    <a href="mailto:theostevenson1880@gmail.com" className="p-text">theostevenson1880@gmail.com</a>
                 </div>
                 <div className="app__footer-card">
                     <img src={images.mobile} alt="phone" />
-                    <a href="tel:+1 (123) 456-7890" className="p-text">+1 (123) 456-7890</a>
+                    <a href="tel:+84 35 807 5274" className="p-text" style={{ color: '#037F8C' }}>0358075274</a>
                 </div>
             </div>
             {!isFormSubmitted ? (
                 <div className="app__footer-form app__flex">
                     <div className="app__flex">
-                        <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
+                        <input className="p-text" style={{ backgroundColor: 'white' }} type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
                     </div>
                     <div className="app__flex">
-                        <input className="p-text" type="email" placeholder="Your Email" name="email" value={email} onChange={handleChangeInput} />
+                        <input className="p-text" style={{ backgroundColor: 'white' }} type="email" placeholder="Your Email" name="email" value={email} onChange={handleChangeInput} />
                     </div>
                     <div>
                         <textarea
+                            style={{ backgroundColor: 'white' }}
                             className="p-text"
                             placeholder="Your Message"
                             value={message}
@@ -66,7 +67,7 @@ const Footer = () => {
                             onChange={handleChangeInput}
                         />
                     </div>
-                    <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
+                    <button type="button" className="p-text" style={{ backgroundColor: '#037F8C' }} onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
                 </div>
             ) : (
                 <div>

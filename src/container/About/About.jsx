@@ -33,7 +33,7 @@ const About = () => {
                     >
                         <img src={urlFor(about.imgUrl)} alt={about.title} />
                         <h2 className='bold-text' style={{ marginTop: 20 }}>{about.title}</h2>
-                        <p className='p-text' style={{ marginTop: 10 }}>{about.description}</p>
+                        <p className='p-text' style={{ marginTop: 10, fontSize: '13px' }}>{about.description}</p>
 
                     </motion.div>
                 ))}

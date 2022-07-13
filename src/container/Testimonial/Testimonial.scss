@@ -7,7 +7,7 @@
 .app__testimonial-item {
   width: 60%;
   min-height: 320px;
-  background-color: var(--white-color);
+  background-color: #82D0D9;
   display: flex;
   flex-direction: row;
   padding: 2rem;
@@ -90,7 +90,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: var(--white-color);
+    background-color: #82D0D9;
     cursor: pointer;
 
     margin: 1rem;
@@ -99,11 +99,11 @@
     svg {
       width: 20px;
       height: 20px;
-      color: var(--secondary-color);
+      color: #013A40;
     }
 
     &:hover {
-      background-color: var(--secondary-color);
+      background-color: #037F8C;
 
       svg {
         color: var(--white-color);
