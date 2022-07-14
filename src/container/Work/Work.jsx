@@ -41,7 +41,7 @@ const Work = () => {
 
     return (
         <>
-            <h2 className='head-text'>My creative <span style={{ color: '#82D0D9' }}>Portfolio</span> section</h2>
+            <h2 className='head-text'>My <span style={{ color: '#82D0D9' }}>collaborated projects</span> section</h2>
             <div className='app__work-filter'>
                 {['Web App', 'Mobile App', 'React JS', 'React Native', 'All'].map((item, index) => (
                     <div
@@ -93,8 +93,8 @@ const Work = () => {
                         </div>
 
                         <div className='app__work-content app_flex'>
-                            <h4 className='bold-text'>{work.title}</h4>
-                            <p className='p-text' style={{ marginTop: 10, color: 'black' }}>{work.description}</p>
+                            <h4 className='bold-text' style={{ marginTop: 10 }}>{work.title}</h4>
+                            <p className='p-text' style={{ marginTop: 7, color: 'black' }}>{work.description}</p>
 
                             <div className='app__work-tag app__flex'>
                                 <p className='p-text'>{work.tags[0]}</p>
