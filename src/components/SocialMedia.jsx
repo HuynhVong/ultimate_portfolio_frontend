@@ -2,6 +2,7 @@ import React from 'react';
 import { BsInstagram } from 'react-icons/bs';
 import { FaFacebook } from 'react-icons/fa';
 import { BsLinkedin } from 'react-icons/bs';
+import { FaCloudDownloadAlt } from 'react-icons/fa';
 
 const SocialMedia = () => {
     return (
@@ -19,6 +20,11 @@ const SocialMedia = () => {
             <div>
                 <a href='https://www.instagram.com/pluviophile_elysian/'>
                     <BsInstagram />
+                </a>
+            </div>
+            <div className='app__social-dlCv'>
+                <a href='https://rg.link/fMPqwl4'>
+                    <FaCloudDownloadAlt />
                 </a>
             </div>
         </div>
